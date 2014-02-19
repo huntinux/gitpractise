@@ -1,12 +1,13 @@
 # Getting Started
 
-## Git“客户端”的安装、设置、运行 
+## Git客户端的安装、设置、运行 
 `http://wiki.corp.qunar.com/pages/viewpage.action?pageId=42273939`
 
 ## 新建project
 到`http://gitlab.corp.qunar.com/` 点击`New project`
 输入Project name，Description。点击`Create project`
 然后页面会有一些提示：
+
 ```sh
 # Git global setup:
 
