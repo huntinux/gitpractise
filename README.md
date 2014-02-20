@@ -69,3 +69,19 @@ git merge branch1	# merge branch1 to master
 git branch -d branch1	# delete branch1
 git push origin master	# push 
 ```
+## 新建目录 
+
+```sh
+mkdir newdir	
+touch newdir/newfile
+git add newdir
+git commit -m 'add new dir'
+git push origin master
+```
+
+## 删除目录
+```sh
+git rm -r newdir
+git commit -m 'del new dir'
+git push origin master
+```
