@@ -85,3 +85,8 @@ git rm -r newdir
 git commit -m 'del new dir'
 git push origin master
 ```
+
+## 删除远程分支
+```sh
+git push origin :branch-name # 冒号前面的空格不能少，原理是把一个空分支push到server上，相当于删除该分支。
+```
