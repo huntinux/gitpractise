@@ -26,3 +26,5 @@ setup(
         "License :: OSI Approved :: BSD License",
     ],
 )
+
+# add some trash
