@@ -95,4 +95,5 @@ git rm -r newdir
 git commit -m 'del new dir'
 git push origin master
 ```
-
+## 使用virtualenv tools `http://git.corp.qunar.com:8000/ops-dev/python-samples/tree/master`
+将python-sample中的tools加入了project，方便使用virtualenv。
