@@ -1,10 +1,8 @@
 # Getting Started
 
-## Git客户端的安装、设置、运行 
-`http://wiki.corp.qunar.com/pages/viewpage.action?pageId=42273939`
 
 ## 新建project
-到`http://gitlab.corp.qunar.com/` 点击`New project`
+到`http://github.com/` 点击`New project`
 输入Project name，Description。点击`Create project`
 然后页面会有一些提示：
 
@@ -12,7 +10,7 @@
 # Git global setup:
 
 git config --global user.name "曹洪瑾"
-git config --global user.email "hongjin.cao@qunar.com"
+git config --global user.email "huntinux@gmail.com"
 
 # Create Repository
 
@@ -22,13 +20,13 @@ git init
 touch README
 git add README
 git commit -m 'first commit'
-git remote add origin git@gitlab.corp.qunar.com:hongjin.cao/newproject.git
+git remote add origin git@github.com/huntinux/gitpractise.git:huntinux/newproject.git
 git push -u origin master
 
 # Existing Git Repo?
 
 cd existing_git_repo
-git remote add origin git@gitlab.corp.qunar.com:hongjin.cao/newproject.git
+git remote add origin git@github.com/huntinux/gitpractise.git:huntinux/newproject.git
 git push -u origin master
 
 ```
@@ -95,5 +93,5 @@ git rm -r newdir
 git commit -m 'del new dir'
 git push origin master
 ```
-## 使用virtualenv tools `http://git.corp.qunar.com:8000/ops-dev/python-samples/tree/master`
+## 使用virtualenv tools 
 将python-sample中的tools加入了project，方便使用virtualenv。
