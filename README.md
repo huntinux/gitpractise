@@ -20,13 +20,13 @@ git init
 touch README
 git add README
 git commit -m 'first commit'
-git remote add origin git@github.com/huntinux/gitpractise.git:huntinux/newproject.git
+git remote add origin https://github.com/huntinux/gitpractise.git
 git push -u origin master
 
 # Existing Git Repo?
 
 cd existing_git_repo
-git remote add origin git@github.com/huntinux/gitpractise.git:huntinux/newproject.git
+git remote add origin git地址
 git push -u origin master
 
 ```
