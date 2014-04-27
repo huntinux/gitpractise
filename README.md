@@ -95,3 +95,10 @@ git push origin master
 ```
 ## 使用virtualenv tools 
 将python-sample中的tools加入了project，方便使用virtualenv。
+
+## clone 指定分支
+```sh
+git clone -b <branch> <remote_repo> 
+example: clone nginx-0.1 branch
+git clone -b nginx-0.1 https://github.com/nginx/nginx.git 
+```
